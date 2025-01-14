@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#daycare-list {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.daycare-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.daycare-item:last-child {
+    border-bottom: none;
+}
