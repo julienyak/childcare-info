@@ -2,11 +2,21 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>어린이집 및 유치원 현황</title>
+    <title>경기도 어린이집 및 유치원 현황</title>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <h1>경기도 어린이집 및 유치원 현황</h1>
-    <div id="data"></div>
+    <div id="map"></div>
+    <ul id="facility-list"></ul>
+
+    <!-- Google Maps JavaScript API 로드 -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
     <script src="app.js"></script>
 </body>
 </html>
